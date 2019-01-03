@@ -1,5 +1,5 @@
 {
-   "name": "music-plus-plus",
+   "name": "music-plus-minus",
    "version": "1.0",
    "description": "Lose control of your youtube experience. for the better. you'll like it. please.",
    "permissions": ["storage"],
@@ -10,11 +10,7 @@
     "browser_action": {
         "default_title": "music-plus-minus"
     },
-    "permissions": [
-        "https://*/*",
-        "http://*/*",
-        "tabs"
-    ],
+    "permissions": ["https://www.youtube.com/*"],
     "icons": {
         "16": "images/favicon16.png",
         "32": "images/favicon32.png",
