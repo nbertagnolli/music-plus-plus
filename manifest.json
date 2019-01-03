@@ -1,0 +1,19 @@
+{
+   "name": "music-plus-plus",
+   "version": "1.0",
+   "description": "Lose control of your youtube experience. for the better. you'll like it. please.",
+   "permissions": ["storage"],
+   "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "browser_action": {
+        "default_title": "music-plus-minus"
+    },
+    "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+],
+   "manifest_version": 2
+ }
